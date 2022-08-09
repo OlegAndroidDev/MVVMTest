@@ -1,5 +1,5 @@
 package com.example.mvvmtest.model
 
-data class CoctailDetails(
-    
+data class CocktailDetails(
+    val drinks: List<CocktailItem>
 )
