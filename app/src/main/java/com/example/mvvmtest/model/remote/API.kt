@@ -16,6 +16,6 @@ object API {
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-            .create(Service::class.java)
+            .create(Service::class.java) // we create a Service
     }
 }
